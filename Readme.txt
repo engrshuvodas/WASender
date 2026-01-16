@@ -1,4 +1,4 @@
-If you want to activate the software, just message me on WhatsApp. The Wasender software is now fully bug-free and working perfectly. This is the new 4.0.5 version.
+If you want to activate the software, just message me on WhatsApp. The Wasender software is now fully bug-free and working perfectly. This is the new version-4.
 
 also, If you face any problem, contact me on WhatsApp 📞 +880 1765-245872
 
