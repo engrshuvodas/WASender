@@ -681,11 +681,13 @@
 
         .floating-icon {
             position: absolute;
-            color: rgba(255, 255, 255, 0.15);
+            color: rgba(255, 255, 255, 0.4);
+            /* Increased visibility */
             font-size: 24px;
             user-select: none;
             animation: float-around linear infinite;
-            filter: blur(1px);
+            filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
+            z-index: -1;
         }
 
         @keyframes float-around {
@@ -695,15 +697,15 @@
             }
 
             10% {
-                opacity: 1;
+                opacity: 0.8;
             }
 
             90% {
-                opacity: 1;
+                opacity: 0.8;
             }
 
             100% {
-                transform: translateY(-20vh) rotate(360deg) translateX(50px);
+                transform: translateY(-20vh) rotate(360deg) translateX(80px);
                 opacity: 0;
             }
         }
@@ -1027,7 +1029,8 @@
         }, 30000);
 
         // Background Animation Logic
-        const bgIcons = ['💬', '✉️', '💰', '📈', '🚀', '📊', '🤝', '💸', '📱', '🛒'];
+        const bgIcons = ['💬', '✉️', '💰', '📈', '🚀', '📊', '🤝', '💸', '📱', '🛒', '🎯', '📢', '🔥'];
+        const colors = ['#ffffff', '#25D366', '#FFD700', '#0077b5', '#FF4500', '#1dbf73'];
         const bgContainer = document.getElementById('bgAnimations');
 
         function createFloatingIcon() {
@@ -1038,27 +1041,34 @@
             const startLeft = Math.random() * 100;
             icon.style.left = startLeft + 'vw';
 
-            const duration = Math.random() * 15 + 15;
+            const duration = Math.random() * 8 + 10; // Faster movement (10-18s)
             icon.style.animationDuration = duration + 's';
 
-            const size = Math.random() * 30 + 15;
+            const size = Math.random() * 30 + 25; // Slightly larger (25-55px)
             icon.style.fontSize = size + 'px';
+
+            // Random color/glow for some icons to make them pop
+            if (Math.random() > 0.4) {
+                const randomColor = colors[Math.floor(Math.random() * colors.length)];
+                icon.style.color = randomColor;
+                icon.style.filter = `drop-shadow(0 0 8px ${randomColor}66)`;
+            }
 
             bgContainer.appendChild(icon);
 
-            // Remove icon after animation finishes
             setTimeout(() => {
                 icon.remove();
             }, duration * 1000);
         }
 
-        // Initialize some icons immediately
-        for (let i = 0; i < 15; i++) {
-            setTimeout(createFloatingIcon, Math.random() * 5000);
+        // Initialize more icons immediately
+        for (let i = 0; i < 20; i++) {
+            setTimeout(createFloatingIcon, Math.random() * 3000);
         }
 
-        // Keep creating icons
-        setInterval(createFloatingIcon, 1500);
+        // Create icons more frequently
+        setInterval(createFloatingIcon, 700);
+
     </script>
     <script defer="" src="./Download WA Sender v4.11.8_files/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
         integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
