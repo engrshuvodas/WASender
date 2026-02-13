@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WASender - Software Update Information</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #128C7E 0%, #075E54 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            animation: fadeIn 0.8s ease-out;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #128C7E, #075E54);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .info-card {
+            background: linear-gradient(135deg, #128C7E 0%, #075E54 100%);
+            border-radius: 18px;
+            padding: 25px;
+            margin-bottom: 18px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .info-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(18, 140, 126, 0.3);
+        }
+
+        .info-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transform: rotate(45deg);
+            transition: all 0.6s;
+        }
+
+        .info-card:hover::before {
+            animation: shine 0.6s ease-in-out;
+        }
+
+        @keyframes shine {
+            0% {
+                transform: translateX(-100%) translateY(-100%) rotate(45deg);
+            }
+            100% {
+                transform: translateX(100%) translateY(100%) rotate(45deg);
+            }
+        }
+
+        .card-icon {
+            font-size: 1.8rem;
+            margin-right: 12px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .card-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .card-link {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 12px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .card-link:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: translateY(-1px);
+        }
+
+        .update-card {
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+        }
+
+        .youtube-card {
+            background: linear-gradient(135deg, #FF0000 0%, #CC0000 100%);
+        }
+
+        .manual-card {
+            background: linear-gradient(135deg, #128C7E 0%, #075E54 100%);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .pulse {
+            animation: pulse 2.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 8px rgba(37, 211, 102, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
+
+        .copy-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            margin-left: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .copy-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .copy-btn.copied {
+            background: rgba(76, 175, 80, 0.8);
+        }
+
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 25px;
+            font-weight: 500;
+            z-index: 1000;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            animation: popupShow 0.3s ease-out forwards;
+        }
+
+        @keyframes popupShow {
+            to {
+                transform: translate(-50%, -50%) scale(1);
+            }
+        }
+
+        .popup.hide {
+            animation: popupHide 0.3s ease-out forwards;
+        }
+
+        @keyframes popupHide {
+            to {
+                transform: translate(-50%, -50%) scale(0);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+                margin: 5px;
+                max-width: 100%;
+            }
+            
+            .title {
+                font-size: 1.8rem;
+            }
+            
+            .subtitle {
+                font-size: 0.9rem;
+            }
+            
+            .info-card {
+                padding: 20px;
+                margin-bottom: 15px;
+            }
+            
+            .card-title {
+                font-size: 1.1rem;
+            }
+            
+            .card-link {
+                padding: 10px 16px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px;
+                margin: 0;
+            }
+            
+            .title {
+                font-size: 1.5rem;
+            }
+            
+            .info-card {
+                padding: 15px;
+            }
+            
+            .card-icon {
+                font-size: 1.5rem;
+            }
+            
+            .copy-btn {
+                margin-left: 5px;
+                padding: 4px 8px;
+                font-size: 0.7rem;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 700px;
+                padding: 50px;
+            }
+            
+            .title {
+                font-size: 3rem;
+            }
+            
+            .info-card {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">WASender</h1>
+            <p class="subtitle">Software Update & Resources</p>
+        </div>
+
+        <div class="info-card update-card pulse">
+            <span class="card-icon">✅</span>
+            <h2 class="card-title">Future Software Update</h2>
+            <p>Download the latest version of WASender</p>
+            <a href="https://engrshuvodas.github.io/WASender" target="_blank" class="card-link">
+                Visit Download Page
+            </a>
+            <button class="copy-btn" onclick="copyToClipboard('https://engrshuvodas.github.io/WASender', this)">
+                Copy Link
+            </button>
+        </div>
+
+        <div class="info-card youtube-card">
+            <span class="card-icon">🎬</span>
+            <h2 class="card-title">YouTube Channel</h2>
+            <p>Watch tutorials and updates</p>
+            <a href="https://www.youtube.com/@engr_shuvo" target="_blank" class="card-link">
+                Subscribe on YouTube
+            </a>
+            <button class="copy-btn" onclick="copyToClipboard('https://www.youtube.com/@engr_shuvo', this)">
+                Copy Link
+            </button>
+        </div>
+
+        <div class="info-card manual-card">
+            <span class="card-icon">⚙️</span>
+            <h2 class="card-title">User Manual</h2>
+            <p>Complete documentation and guide</p>
+            <a href="https://engrshuvodas.github.io/WASender-User-Manual" target="_blank" class="card-link">
+                View User Manual
+            </a>
+            <button class="copy-btn" onclick="copyToClipboard('https://engrshuvodas.github.io/WASender-User-Manual', this)">
+                Copy Link
+            </button>
+        </div>
+
+        <div class="footer">
+            <p>2024 WASender | Developed by Engr. Shuvo Das</p>
+        </div>
+    </div>
+
+    <script>
+        function copyToClipboard(text, button) {
+            navigator.clipboard.writeText(text).then(function() {
+                showPopup('Link copied successfully!');
+            }).catch(function(err) {
+                console.error('Failed to copy: ', err);
+                
+                // Fallback for older browsers
+                const textArea = document.createElement("textarea");
+                textArea.value = text;
+                textArea.style.position = "fixed";
+                textArea.style.left = "-999999px";
+                textArea.style.top = "-999999px";
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                
+                try {
+                    document.execCommand('copy');
+                    showPopup('Link copied successfully!');
+                } catch (err) {
+                    console.error('Fallback copy failed: ', err);
+                    showPopup('Failed to copy link');
+                }
+                
+                document.body.removeChild(textArea);
+            });
+        }
+
+        function showPopup(message) {
+            // Remove existing popup if any
+            const existingPopup = document.querySelector('.popup');
+            if (existingPopup) {
+                existingPopup.remove();
+            }
+
+            // Create new popup
+            const popup = document.createElement('div');
+            popup.className = 'popup';
+            popup.textContent = message;
+            document.body.appendChild(popup);
+
+            // Remove popup after 2 seconds
+            setTimeout(function() {
+                popup.classList.add('hide');
+                setTimeout(function() {
+                    popup.remove();
+                }, 300);
+            }, 2000);
+        }
+
+        // Add entrance animation to cards
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeIn 0.6s ease-out';
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.info-card').forEach(card => {
+            observer.observe(card);
+        });
+
+        // Add keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key >= '1' && e.key <= '3') {
+                const cards = document.querySelectorAll('.info-card');
+                const index = parseInt(e.key) - 1;
+                if (cards[index]) {
+                    const link = cards[index].querySelector('.card-link');
+                    if (link) {
+                        link.click();
+                    }
+                }
+            }
+        });
+
+        // Add page load animation
+        window.addEventListener('load', function() {
+            document.body.style.opacity = '0';
+            setTimeout(function() {
+                document.body.style.transition = 'opacity 0.5s ease-in';
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
+</body>
+</html>
