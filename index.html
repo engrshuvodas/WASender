@@ -564,16 +564,32 @@
                 font-size: 12px;
             }
 
-            .whatsapp-float {
-                width: 55px;
-                height: 55px;
+            .msg-float {
                 bottom: 20px;
                 right: 20px;
+                padding: 6px 16px 6px 6px;
+                border-radius: 35px;
             }
 
-            .whatsapp-float svg {
-                width: 30px !important;
-                height: 30px !important;
+            .msg-float-img-wrapper {
+                width: 40px;
+                height: 40px;
+            }
+
+            .msg-float-title {
+                font-size: 14px;
+            }
+
+            .msg-float-status {
+                font-size: 11px;
+            }
+            
+            .status-avg {
+                display: none;
+            }
+            
+            .status-separator {
+                display: none;
             }
         }
 
@@ -714,52 +730,107 @@
             font-size: 13px;
         }
 
-        /* Floating WhatsApp Button */
-        .whatsapp-float {
+        /* Floating Message Widget */
+        .msg-float {
             position: fixed;
             bottom: 30px;
             right: 30px;
-            width: 65px;
-            height: 65px;
-            background: #25D366;
-            color: white;
-            border-radius: 50%;
-            text-align: center;
-            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
-            z-index: 1000;
+            background: #18181b;
+            border: 1px solid #3f3f46;
+            border-radius: 40px;
+            padding: 8px 20px 8px 8px;
             display: flex;
             align-items: center;
-            justify-content: center;
+            gap: 12px;
             text-decoration: none;
+            z-index: 1000;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
-        .whatsapp-float:hover {
-            transform: scale(1.1) rotate(5deg);
-            background: #128C7E;
+        .msg-float:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+            border-color: #52525b;
+            background: #27272a;
         }
 
-        .whatsapp-float::before {
-            content: '';
-            position: absolute;
+        .msg-float-img-wrapper {
+            position: relative;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 2px solid #f59e0b;
+            flex-shrink: 0;
+            padding: 2px;
+            background: transparent;
+        }
+        
+        .msg-float-img-inner {
             width: 100%;
             height: 100%;
-            background: rgba(37, 211, 102, 0.5);
             border-radius: 50%;
-            z-index: -1;
-            animation: pulse-border 2s infinite;
+            overflow: hidden;
         }
 
-        @keyframes pulse-border {
-            0% {
-                transform: scale(1);
-                opacity: 1;
-            }
+        .msg-float-img-inner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
 
-            100% {
-                transform: scale(1.6);
-                opacity: 0;
-            }
+        .msg-float-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .msg-float-title {
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 4px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            text-align: left;
+            line-height: 1;
+        }
+
+        .msg-float-status {
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #22c55e;
+            border-radius: 50%;
+            margin-right: 6px;
+            box-shadow: 0 0 5px rgba(34, 197, 94, 0.5);
+            animation: status-pulse 2s infinite;
+        }
+
+        @keyframes status-pulse {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+        }
+
+        .status-text {
+            color: #22c55e;
+            font-weight: 600;
+        }
+
+        .status-separator {
+            color: #71717a;
+            margin: 0 6px;
+        }
+
+        .status-avg {
+            color: #a1a1aa;
         }
 
         .support-action-icon svg {
@@ -1262,12 +1333,22 @@
         data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;7b3c8a0adcc547149b5cb7d4668ff8a0&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}"
         crossorigin="anonymous"></script>
 
-    <!-- Floating WhatsApp -->
-    <a href="https://wa.me/+8801765245872" class="whatsapp-float" target="_blank" title="Chat with support">
-        <svg style="width: 38px; height: 38px; fill: white;" viewBox="0 0 448 512">
-            <path
-                d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.7 17.8 69.7 27.2 106.2 27.2h.1c122.3 0 222-99.6 222-222 0-59.3-23-115.1-65.1-157.1zM223.9 446.3c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 365.7l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-5.5-2.8-23.2-8.5-44.2-27.1-16.4-14.6-27.4-32.7-30.6-38.1-3.2-5.5-.3-8.5 2.5-11.2 2.5-2.4 5.5-6.5 8.3-9.7 2.8-3.3 3.7-5.5 5.5-9.3 1.9-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 13.3 5.7 23.7 9.1 31.7 11.7 13.3 4.2 25.4 3.6 35 2.2 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
-        </svg>
+    <!-- Floating Message Widget -->
+    <a href="https://wa.me/+8801765245872" class="msg-float" target="_blank" title="Chat with support">
+        <div class="msg-float-img-wrapper">
+            <div class="msg-float-img-inner">
+                <img src="https://github.com/engrshuvodas.png" alt="Shuvo">
+            </div>
+        </div>
+        <div class="msg-float-content">
+            <div class="msg-float-title">Message - Shuvo</div>
+            <div class="msg-float-status">
+                <span class="status-dot"></span>
+                <span class="status-text">Online</span>
+                <span class="status-separator">·</span>
+                <span class="status-avg">Avg. response time: 1 Hour</span>
+            </div>
+        </div>
     </a>
 </body>
 
