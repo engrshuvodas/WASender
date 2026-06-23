@@ -58,8 +58,8 @@
 <h3>📥 Want the Full Version?</h3>
 <p>
   To activate WaSender or get full access, contact me directly on WhatsApp:<br>
-  <a href="https://wa.me/+8801765245872" target="_blank">
-    <mark>+8801765245872</mark>
+  <a href="https://wa.me/+919641700503" target="_blank">
+    <mark>+919641700503</mark>
   </a>
 </p>
 
@@ -96,7 +96,7 @@
 
 | Platform | Link |
 | :--- | :--- |
-| **WhatsApp** | [Chat Now](https://wa.me/+8801765245872) |
+| **WhatsApp** | [Chat Now](https://wa.me/+919641700503) |
 | **LinkedIn** | [Profile](https://www.linkedin.com/in/engrshuvoda/) |
 | **YouTube** | [Channel](https://www.youtube.com/channel/UCEJ0R871tF2PLT27q9azYWg) |
 | **GitHub** | [Repositories](https://github.com/engrshuvodas) |
