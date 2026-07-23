@@ -126,6 +126,60 @@ From **bulk messaging** and **multi-account management** to **lead extraction** 
 
 <br>
 
+## 🔑 Reseller Program — Your Own License Control Panel
+
+Want to **resell WASender under your own business**? Our **Reseller Package** gives you a **private, fully-branded Control Panel** — so you can manage licenses, activations, and customers independently, without depending on us for every sale.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🎛️ What You Get**
+- Your own admin **Dashboard** with real-time stats
+- **Create & issue license keys** for your customers
+- Set **activation limits** & **expiration dates** per license
+- **Activate / Deactivate / Reset / Delete** any license instantly
+- Full **activity logs** & customer search
+- 100% control — run it as **your own business**
+
+</td>
+<td width="50%" valign="top">
+
+**📈 Why Resellers Love It**
+- No manual key generation — everything automated
+- Sell to unlimited customers under your own brand
+- Track total licenses, active licenses & recent activations
+- Instant delivery — activate a customer the moment they pay
+- Zero technical setup — the panel is ready to use
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**Admin Dashboard** — real-time overview of total licenses, active licenses, and activation activity.
+
+<img src="./img/Control%20Panel%20for%20License%20Managemen/dashboard.jpeg" alt="Reseller Control Panel Dashboard" width="90%">
+
+<br><br>
+
+**Create New License** — instantly generate a license key for any customer with custom limits & expiry.
+
+<img src="./img/Control%20Panel%20for%20License%20Managemen/create%20key%20system.jpeg" alt="Create License Key" width="90%">
+
+<br><br>
+
+**Manage Registered Licenses** — search, track status, and control every license from one place.
+
+<img src="./img/Control%20Panel%20for%20License%20Managemen/user%20list.jpeg" alt="Registered Licenses List" width="90%">
+
+</div>
+
+> 💡 **In short:** buy the Reseller Package once, get your own Control Panel, and start running your **own WASender reselling business** — issue licenses to your customers directly and independently.
+
+<br>
+
 ## 💼 Who Is This For?
 
 | Audience | Use Case |
@@ -135,6 +189,7 @@ From **bulk messaging** and **multi-account management** to **lead extraction** 
 | 🏢 **Small & Medium Businesses** | Automate customer outreach at scale |
 | 👨‍🏫 **Coaches, Trainers & Consultants** | Nurture leads with personalized messaging |
 | 🤝 **Lead Generation Agencies** | Extract & qualify leads from Maps and social platforms |
+| 🎛️ **Resellers & Entrepreneurs** | Get your own Control Panel and run your own WASender business |
 
 <br>
 
