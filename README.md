@@ -7,7 +7,7 @@
 **Send unlimited bulk messages • Manage multiple accounts • Extract leads • Automate everything**
 
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#)
-[![Version](https://img.shields.io/badge/version-3.6.0-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](#)
+[![Version](https://img.shields.io/badge/version-5.1.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](#)
 [![Status](https://img.shields.io/badge/status-Active-success?style=for-the-badge)](#)
 [![License](https://img.shields.io/badge/license-Commercial-orange?style=for-the-badge)](#)
 
@@ -114,19 +114,13 @@ From **bulk messaging** and **multi-account management** to **lead extraction** 
 
 **Campaign & Messaging Panel** — build multi-part messages, attach media, add polls, and fine-tune sending delays.
 
-<img src="./img/WASENDER_msg_send_section.png" alt="WASender Messaging Panel" width="90%">
+<img src="./img/WASENDER%20msg%20send%20section.png" alt="WASender Messaging Panel" width="90%">
 
 <br><br>
 
 **All-in-One Tools Suite** — 18+ automation tools for scraping, filtering, and group management.
 
-<img src="./img/WASENDER_all_tools.png" alt="WASender Tools Overview" width="90%">
-
-<br><br>
-
-**Multi-Account Manager** — add, load, and switch between unlimited WhatsApp accounts.
-
-<img src="./img/WASENDER_multiple_account.png" alt="WASender Account Manager" width="70%">
+<img src="./img/WASENDER%20all%20tools.png" alt="WASender Tools Overview" width="90%">
 
 </div>
 
@@ -177,6 +171,10 @@ Ready to activate WASender or unlock the full version? Reach out directly:
 
 <br>
 
+> 🎁 **Free Lifetime Updates** — Once you purchase WASender, all future version updates and bug fixes are provided **completely free of charge**. No renewal fees, no hidden costs.
+
+<br>
+
 ## 🌍 Trusted by International Clients
 
 ⭐ Real reviews, real results — order with confidence.
@@ -202,7 +200,7 @@ Ready to activate WASender or unlock the full version? Reach out directly:
 <div align="center">
 
 <a href="https://www.youtube.com/@engr_shuvo" target="_blank">
-  <img src="./img/WASendX_youtube.png" alt="WASender YouTube Channel" width="320">
+  <img src="./img/WASendX%20youtube.png" alt="WASender YouTube Channel" width="320">
 </a>
 
 <br>
