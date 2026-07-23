@@ -19,7 +19,7 @@
 <br>
 
 [![Chat on WhatsApp](https://img.shields.io/badge/Chat_on_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+919641700503)
-[![Hire Me on Fiverr](https://img.shields.io/badge/Hire_Me_on_Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/s/VYZLokm)
+[![Hire Me on Fiverr](https://img.shields.io/badge/Hire_Me_on_Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/shuvo_das74886/)
 [![YouTube](https://img.shields.io/badge/Watch_Demos-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@engr_shuvo)
 
 <br>
