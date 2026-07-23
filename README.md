@@ -1,112 +1,240 @@
-<!-- Highlighted Free Trial Section -->
-<div>
-  <h2>🎉 <strong>Free Trial Available!</strong></h2>
-  <p>Try WaSender completely free before you buy — No risk, just real results! 💼✨</p>
+<div align="center">
+
+# 🚀 WASender
+
+### The Ultimate WhatsApp Marketing Automation Suite
+
+**Send unlimited bulk messages • Manage multiple accounts • Extract leads • Automate everything**
+
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#)
+[![Version](https://img.shields.io/badge/version-3.6.0-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](#)
+[![Status](https://img.shields.io/badge/status-Active-success?style=for-the-badge)](#)
+[![License](https://img.shields.io/badge/license-Commercial-orange?style=for-the-badge)](#)
+
+<br>
+
+### 🎉 **Free Trial Available — Try Before You Buy!**
+*No risk. No commitment. Just real results.* 💼✨
+
+<br>
+
+[![Chat on WhatsApp](https://img.shields.io/badge/Chat_on_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+919641700503)
+[![Hire Me on Fiverr](https://img.shields.io/badge/Hire_Me_on_Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/s/VYZLokm)
+[![YouTube](https://img.shields.io/badge/Watch_Demos-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@engr_shuvo)
+
 </div>
 
-<h2>🚀 WASender New Update Version - v5.1.1 | Fix bugs 100%</h2>
+<br>
 
-<p>
-  WaSender is an advanced WhatsApp marketing solution built for businesses, digital marketers, and agencies aiming to send unlimited bulk messages using single or multiple WhatsApp accounts effortlessly.
-  <br><br>
-  With smart automated group joining, lead extraction tools, and personalized messaging, WaSender streamlines and boosts your marketing campaigns — making your workflow efficient and highly productive.
-</p>
+## 📖 About WASender
 
-<h3>✨ Key Features</h3>
-<ul>
-  <li>✅ Unlimited Bulk Messaging</li>
-  <li>✅ Multi WhatsApp Account Support</li>
-  <li>✅ Import Contacts from Excel (Saved/Unsaved)</li>
-  <li>✅ Automated Group Joining & Lead Extraction</li>
-  <li>✅ Personalized Message Sending</li>
-  <li>✅ Lead Extraction from Google Maps & Social Media</li>
-  <li>✅ Human-like Automation to Avoid WhatsApp Ban</li>
-  <li>✅ Real-Time Campaign Reporting</li>
-  <li>✅ License Key System for Resellers</li>
-</ul>
+**WASender** is a powerful, all-in-one WhatsApp marketing automation platform built for businesses, digital marketers, and agencies who need to run large-scale outreach campaigns — without the manual grind.
 
-<h3>🖼️ Sneak Peek</h3>
-<p>Check out WaSender in action below 👇</p>
+From **bulk messaging** and **multi-account management** to **lead extraction** and **group automation**, WASender brings your entire WhatsApp marketing workflow into a single, easy-to-use desktop application — engineered with human-like sending behavior to keep your accounts safe.
 
-<img src="./img/WASENDER msg send section.png" alt="WaSender Software Preview">
-<img src="./img/WASENDER all tools.png" alt="WaSender Software Tools Overview">
+<br>
 
-<h3>💼 Who Can Benefit?</h3>
-<ul>
-  <li>📢 Digital Marketers & Advertisers</li>
-  <li>🛍️ E-commerce Sellers & Retailers</li>
-  <li>🏢 Small & Medium Businesses</li>
-  <li>👨‍🏫 Coaches, Trainers & Consultants</li>
-  <li>🤝 Lead Generation Specialists & Agencies</li>
-</ul>
+## ✨ Key Features
 
-<h3>⚙️ How to Get Started</h3>
-<ol>
-  <li>Download WaSender on your Windows 10 or 11 PC</li>
-  <li>Import your contacts list via Excel</li>
-  <li>Connect one or multiple WhatsApp accounts</li>
-  <li>Create & customize your marketing messages</li>
-  <li>Launch your campaign instantly and track results</li>
-</ol>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<h3>📌 Important Notes</h3>
-<ul>
-  <li>Please include country codes with numbers (e.g., +1415xxxxxxx for USA)</li>
-  <li>This software is compatible only with <strong>Windows 10 & 11</strong></li>
-</ul>
+**📨 Messaging**
+- Unlimited bulk messaging
+- 5 message template slots per campaign
+- Rich text formatting (bold, italic, quote)
+- File & media attachments
+- Interactive polls in messages
+- Smart randomized delay settings (anti-ban)
 
-<h3>📥 Want the Full Version?</h3>
-<p>
-  To activate WaSender or get full access, contact me directly on WhatsApp:<br>
-  <a href="https://wa.me/+919641700503" target="_blank">
-    <mark>+919641700503</mark>
-  </a>
-</p>
+</td>
+<td width="50%" valign="top">
 
-<p>
-  🌍 Trusted by International Clients!<br>
-  ⭐ See real reviews and order confidently:<br>
-  <a href="https://www.fiverr.com/s/VYZLokm" target="_blank">🔗 Visit My Fiverr Gig</a>
-</p>
+**👥 Account Management**
+- Manage multiple WhatsApp accounts
+- One-click account switching
+- Set default sending account
+- Add / load / delete accounts instantly
 
-<!-- Fiverr Review Image -->
-<p>
-  <a href="https://www.fiverr.com/s/VYZLokm" target="_blank">
-    <img src="./img/fiverr-review.png" alt="Fiverr Reviews" style="width: 200px;">
-  </a>
-</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-<hr>
+**📊 Data & Contacts**
+- Import contacts from Excel (saved/unsaved)
+- Google Contacts CSV generator
+- Contact List Grabber
+- WhatsApp Number Filter (validate before sending)
+- Downloadable sample Excel template
 
-<!-- YouTube Channel Section -->
-<h3>📺 Check Out My YouTube Channel</h3>
-<div>
-  <a href="https://www.youtube.com/@engr_shuvo" target="_blank">
-    <img src="./img/WASendX youtube.png" alt="WaSendX YouTube Channel Preview" style="width: 300px;">
-  </a>
+</td>
+<td width="50%" valign="top">
+
+**🎯 Lead Generation**
+- Google Maps data extractor
+- Website email & mobile extractor
+- Social media data extractor
+- Group member grabber
+- Active group member grabber
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**👨‍👩‍👧‍👦 Group Automation**
+- Auto group joiner
+- Bulk group generator
+- Bulk add group members
+- Grab WhatsApp group links from web
+- Group finder
+- Grab chat list
+
+</td>
+<td width="50%" valign="top">
+
+**⚡ Extras & Insights**
+- WhatsApp warmer (account health)
+- Poll results tracker
+- All-schedules manager
+- Real-time campaign reporting
+- Reseller license key system
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## 🖼️ Sneak Peek
+
+<div align="center">
+
+**Campaign & Messaging Panel** — build multi-part messages, attach media, add polls, and fine-tune sending delays.
+
+<img src="./img/WASENDER_msg_send_section.png" alt="WASender Messaging Panel" width="90%">
+
+<br><br>
+
+**All-in-One Tools Suite** — 18+ automation tools for scraping, filtering, and group management.
+
+<img src="./img/WASENDER_all_tools.png" alt="WASender Tools Overview" width="90%">
+
+<br><br>
+
+**Multi-Account Manager** — add, load, and switch between unlimited WhatsApp accounts.
+
+<img src="./img/WASENDER_multiple_account.png" alt="WASender Account Manager" width="70%">
+
 </div>
-<p>
-  <a href="https://www.youtube.com/@engr_shuvo" target="_blank">
-    ▶️ Visit My YouTube Channel: @engr_shuvo
-  </a>
-</p>
 
-### 👨‍💻 Developed By
-**Engr Shuvo Das**
+<br>
+
+## 💼 Who Is This For?
+
+| Audience | Use Case |
+|---|---|
+| 📢 **Digital Marketers & Advertisers** | Run large-scale promotional campaigns |
+| 🛍️ **E-commerce Sellers & Retailers** | Reach customers directly with offers & updates |
+| 🏢 **Small & Medium Businesses** | Automate customer outreach at scale |
+| 👨‍🏫 **Coaches, Trainers & Consultants** | Nurture leads with personalized messaging |
+| 🤝 **Lead Generation Agencies** | Extract & qualify leads from Maps and social platforms |
+
+<br>
+
+## ⚙️ Getting Started
+
+```
+1️⃣  Download WASender for Windows 10 / 11
+2️⃣  Import your contact list via Excel
+3️⃣  Connect one or multiple WhatsApp accounts
+4️⃣  Create and customize your campaign messages
+5️⃣  Launch your campaign and track results in real time
+```
+
+<br>
+
+## 📌 Important Notes
+
+> ⚠️ Always include the **country code** with numbers  
+> *(e.g., `+1415xxxxxxx` for USA)*
+
+> 🖥️ Compatible only with **Windows 10 & 11**
+
+<br>
+
+## 📥 Get Full Access
+
+Ready to activate WASender or unlock the full version? Reach out directly:
+
+<div align="center">
+
+[![WhatsApp](https://img.shields.io/badge/Message_+919641700503-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+919641700503)
+
+</div>
+
+<br>
+
+## 🌍 Trusted by International Clients
+
+⭐ Real reviews, real results — order with confidence.
+
+<div align="center">
+
+<a href="https://www.fiverr.com/s/VYZLokm" target="_blank">
+  <img src="./img/fiverr-review.png" alt="Fiverr Reviews" width="220">
+</a>
+
+<br>
+
+[![Visit Fiverr Gig](https://img.shields.io/badge/View_Reviews_on_Fiverr-1DBF73?style=flat-square&logo=fiverr&logoColor=white)](https://www.fiverr.com/s/VYZLokm)
+
+</div>
+
+<br>
+
+---
+
+## 📺 More Demos & Tutorials
+
+<div align="center">
+
+<a href="https://www.youtube.com/@engr_shuvo" target="_blank">
+  <img src="./img/WASendX_youtube.png" alt="WASender YouTube Channel" width="320">
+</a>
+
+<br>
+
+[![Subscribe on YouTube](https://img.shields.io/badge/@engr__shuvo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@engr_shuvo)
+
+</div>
+
+---
+
+<br>
+
+## 👨‍💻 Developed By
+
+<div align="center">
+
+### **Engr Shuvo Das**
 
 | Platform | Link |
-| :--- | :--- |
-| **WhatsApp** | [Chat Now](https://wa.me/+919641700503) |
-| **LinkedIn** | [Profile](https://www.linkedin.com/in/engrshuvoda/) |
-| **YouTube** | [Channel](https://www.youtube.com/channel/UCEJ0R871tF2PLT27q9azYWg) |
-| **GitHub** | [Repositories](https://github.com/engrshuvodas) |
-| **Fiverr** | [Hire Me](https://www.fiverr.com/shuvo_das74886) |
-| **Portfolio** | [About Me](https://engrshuvodas.github.io/me/) |
-| **Email** | [engrshuvoda@gmail.com](mailto:engrshuvoda@gmail.com) |
-| **X (Twitter)** | [@engrshuvodas](https://x.com/engrshuvodas) |
-| **Facebook** | [Engr Shuvo](https://www.facebook.com/engr.shuvo74886/) |
+|:---|:---|
+| 💬 **WhatsApp** | [Chat Now](https://wa.me/+919641700503) |
+| 💼 **LinkedIn** | [Profile](https://www.linkedin.com/in/engrshuvoda/) |
+| 📺 **YouTube** | [Channel](https://www.youtube.com/channel/UCEJ0R871tF2PLT27q9azYWg) |
+| 🧑‍💻 **GitHub** | [Repositories](https://github.com/engrshuvodas) |
+| 🟢 **Fiverr** | [Hire Me](https://www.fiverr.com/shuvo_das74886) |
+| 🌐 **Portfolio** | [About Me](https://engrshuvodas.github.io/me/) |
+| ✉️ **Email** | [engrshuvoda@gmail.com](mailto:engrshuvoda@gmail.com) |
+| 🐦 **X (Twitter)** | [@engrshuvodas](https://x.com/engrshuvodas) |
+| 📘 **Facebook** | [Engr Shuvo](https://www.facebook.com/engr.shuvo74886/) |
 
+<br>
 
-<h4>🧑‍💻 Developed with dedication by 
-  <a href="https://engrshuvodas.github.io/SHUVO-_portfolio/" target="_blank">Engr Shuvo Das</a>
-</h4>
+**🧑‍💻 Developed with dedication by [Engr Shuvo Das](https://engrshuvodas.github.io/SHUVO-_portfolio/)**
+
+</div>
