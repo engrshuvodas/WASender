@@ -34,13 +34,21 @@
 
 <br>
 
-# 👉 [**DOWNLOAD WASENDER FREE**](https://wasender-pro.vercel.app/) 👈
+# 👉 [**DOWNLOAD WASENDER FREE**](https://wasender-fiverr.vercel.app/) 👈
 
 ### 🎁 Grab your **Free Trial** instantly — no signup, no credit card, no risk.
 
 <br>
 
-[![Download Now](https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-wasender--pro.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-pro.vercel.app/)
+[![Download Now](https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-wasender--fiverr.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-fiverr.vercel.app/)
+
+### WASender v6 | Full Video Tutorial
+
+[![Play the WASender v6 full tutorial on YouTube](./img/wasender-v6-tutorial.jpg)](https://www.youtube.com/watch?v=sdNlA8_K8hI)
+
+[▶ Watch the full tutorial on YouTube](https://www.youtube.com/watch?v=sdNlA8_K8hI) · 6 min 35 sec
+
+Follow along as you set up an account, build a campaign, configure auto-replies, and use the Google Maps lead extractor.
 
 <br>
 
@@ -142,15 +150,27 @@ Whether you're searching for a **WhatsApp mass messaging tool**, a **WhatsApp au
 
 <div align="center">
 
-**Campaign & Messaging Panel** — build multi-part messages, attach media, add polls, and fine-tune sending delays.
+**Campaign editor** — Compose a message, preview it, and set the delay between sends.
 
-<img src="./img/WASENDER%20msg%20send%20section.png" alt="WASender Messaging Panel" width="90%">
+<img src="./img/wasender-v6-campaign.png" alt="WASender v6 Campaign editor" width="90%">
 
 <br><br>
 
-**All-in-One Tools Suite** — 18+ automation tools for scraping, filtering, and group management.
+**Auto-reply rules** — The enabled pricing rule appears alongside the bot’s reply timing settings.
 
-<img src="./img/WASENDER%20all%20tools.png" alt="WASender Tools Overview" width="90%">
+<img src="./img/wasender-v6-auto-reply.png" alt="WASender v6 Auto-reply rules" width="90%">
+
+<br><br>
+
+**Google Maps lead extractor** — The tutorial uses “Dentists in Mumbai” as the search query.
+
+<img src="./img/wasender-v6-maps.png" alt="WASender v6 Google Maps lead extractor" width="90%">
+
+<br><br>
+
+**Account Warmer** — Choose an account, set minimum and maximum intervals, and enter message templates.
+
+<img src="./img/wasender-v6-warmer.png" alt="WASender v6 Account Warmer" width="90%">
 
 </div>
 
@@ -226,7 +246,7 @@ Want to **resell WASender under your own business**? Our **Reseller Package** gi
 ## ⚙️ Getting Started
 
 ```
-1️⃣  Download WASender (Free Trial) → https://wasender-pro.vercel.app/
+1️⃣  Download WASender (Free Trial) → https://wasender-fiverr.vercel.app/
 2️⃣  Import your contact list via Excel
 3️⃣  Connect one or multiple WhatsApp accounts
 4️⃣  Create and customize your campaign messages
@@ -250,7 +270,7 @@ Ready to activate WASender or unlock the full version? Reach out directly:
 
 <div align="center">
 
-[![Download Free Trial](https://img.shields.io/badge/⬇️_Download_Free_Trial-wasender--pro.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-pro.vercel.app/)
+[![Download Free Trial](https://img.shields.io/badge/⬇️_Download_Free_Trial-wasender--fiverr.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-fiverr.vercel.app/)
 [![WhatsApp](https://img.shields.io/badge/Message_+919641700503-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+919641700503)
 
 </div>
@@ -310,7 +330,7 @@ WASender is a WhatsApp bulk sender and marketing automation software that lets y
 <details>
 <summary><strong>Is there a free trial for WASender?</strong></summary>
 <br>
-Yes! You can download and try WASender completely free before purchasing. Get the free trial here: <a href="https://wasender-pro.vercel.app/">wasender-pro.vercel.app</a>
+Yes! You can download and try WASender completely free before purchasing. Get the free trial here: <a href="https://wasender-fiverr.vercel.app/">wasender-fiverr.vercel.app</a>
 </details>
 
 <details>
@@ -368,14 +388,14 @@ Yes, all future version updates and bug fixes are provided completely free of ch
 | 📺 **YouTube** | [Channel](https://www.youtube.com/channel/UCEJ0R871tF2PLT27q9azYWg) |
 | 🧑‍💻 **GitHub** | [Repositories](https://github.com/engrshuvodas) |
 | 🟢 **Fiverr** | [Hire Me](https://www.fiverr.com/shuvo_das74886) |
-| 🌐 **Portfolio** | [About Me](https://engrshuvodas.github.io/me/) |
+| 🌐 **Portfolio** | [About Me](https://engr-shuvo-portfolio.vercel.app) |
 | ✉️ **Email** | [engrshuvoda@gmail.com](mailto:engrshuvoda@gmail.com) |
 | 🐦 **X (Twitter)** | [@engrshuvodas](https://x.com/engrshuvodas) |
 | 📘 **Facebook** | [Engr Shuvo](https://www.facebook.com/engr.shuvo74886/) |
 
 <br>
 
-**🧑‍💻 Developed with dedication by [Engr Shuvo Das](https://engrshuvodas.github.io/SHUVO-_portfolio/)**
+**🧑‍💻 Developed with dedication by [Engr Shuvo Das](https://engr-shuvo-portfolio.vercel.app)**
 
 </div>
 
