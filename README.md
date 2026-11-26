@@ -34,13 +34,13 @@
 
 <br>
 
-# 👉 [**DOWNLOAD WASENDER FREE**](https://wasender-fiverr.vercel.app/) 👈
+# 👉 [**DOWNLOAD WASENDER FREE**](https://wasender-pro.vercel.app/) 👈
 
 ### 🎁 Grab your **Free Trial** instantly — no signup, no credit card, no risk.
 
 <br>
 
-[![Download Now](https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-wasender--fiverr.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-fiverr.vercel.app/)
+[![Download Now](https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-wasender--fiverr.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-pro.vercel.app/)
 
 ### WASender v6 | Full Video Tutorial
 
@@ -246,7 +246,7 @@ Want to **resell WASender under your own business**? Our **Reseller Package** gi
 ## ⚙️ Getting Started
 
 ```
-1️⃣  Download WASender (Free Trial) → https://wasender-fiverr.vercel.app/
+1️⃣  Download WASender (Free Trial) → https://wasender-pro.vercel.app/
 2️⃣  Import your contact list via Excel
 3️⃣  Connect one or multiple WhatsApp accounts
 4️⃣  Create and customize your campaign messages
@@ -270,7 +270,7 @@ Ready to activate WASender or unlock the full version? Reach out directly:
 
 <div align="center">
 
-[![Download Free Trial](https://img.shields.io/badge/⬇️_Download_Free_Trial-wasender--fiverr.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-fiverr.vercel.app/)
+[![Download Free Trial](https://img.shields.io/badge/⬇️_Download_Free_Trial-wasender--fiverr.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-pro.vercel.app/)
 [![WhatsApp](https://img.shields.io/badge/Message_+919641700503-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+919641700503)
 
 </div>
@@ -330,7 +330,7 @@ WASender is a WhatsApp bulk sender and marketing automation software that lets y
 <details>
 <summary><strong>Is there a free trial for WASender?</strong></summary>
 <br>
-Yes! You can download and try WASender completely free before purchasing. Get the free trial here: <a href="https://wasender-fiverr.vercel.app/">wasender-fiverr.vercel.app</a>
+Yes! You can download and try WASender completely free before purchasing. Get the free trial here: <a href="https://wasender-pro.vercel.app/">wasender-fiverr.vercel.app</a>
 </details>
 
 <details>
