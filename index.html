@@ -131,6 +131,41 @@
             padding-top: 30px;
         }
 
+        .purchase-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            min-height: 46px;
+            padding: 10px 22px;
+            border-radius: 999px;
+            background: #103d31;
+            color: #fff;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .purchase-link:hover { background: #092b23; }
+        .purchase-link:focus-visible { outline: 3px solid #182b24; outline-offset: 3px; }
+        .header-purchase { margin: 16px 0 6px; }
+        .purchase-panel {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 30px;
+            padding: clamp(20px, 4vw, 36px);
+            border-radius: 18px;
+            background: #103d31;
+            color: #fff;
+        }
+
+        .purchase-panel p { margin-top: 6px; color: #d3ebe0; }
+        .purchase-panel .purchase-link { background: #c4f6ce; color: #103d31; }
+        .purchase-panel .purchase-link:hover { background: #fff; }
+        .purchase-panel .purchase-link:focus-visible { outline-color: #fff; }
+
         /* Meta Warning Alert */
         .meta-warning {
             background: linear-gradient(135deg, #fff5f5 0%, #ffe0e0 100%);
@@ -1047,6 +1082,9 @@
                 <div class="logo">💬</div>
                 <h1 class="app-title">WA Sender</h1>
 <span class="version-badge">Version <span data-release="version">—</span></span>
+                <div class="header-purchase">
+                    <a class="purchase-link" href="https://dastech.gumroad.com/l/wasender">Buy WASender <span aria-hidden="true">↗</span></a>
+                </div>
             </div>
 
             <!-- Content -->
@@ -1307,6 +1345,14 @@
                     We do not condone or support the use of our software for spam, harassment, or any illegal
                     activities.
                 </div>
+
+                <section class="purchase-panel" aria-labelledby="purchase-title">
+                    <div>
+                        <h2 id="purchase-title">Buy WASender</h2>
+                        <p>View pricing and purchase the software on Gumroad.</p>
+                    </div>
+                    <a class="purchase-link" href="https://dastech.gumroad.com/l/wasender">Buy on Gumroad <span aria-hidden="true">↗</span></a>
+                </section>
             </div>
 
             <!-- Footer -->
