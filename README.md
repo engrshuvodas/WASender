@@ -330,7 +330,7 @@ WASender is a WhatsApp bulk sender and marketing automation software that lets y
 <details>
 <summary><strong>Is there a free trial for WASender?</strong></summary>
 <br>
-Yes! You can download and try WASender completely free before purchasing. Get the free trial here: <a href="https://wasender-pro.vercel.app/">wasender-pro.vercel.app</a>
+Yes! You can download and try WASender completely free before purchasing. Get the free trial here: <a href="https://wasender-pro.vercel.app/">wasender-fiverr.vercel.app</a>
 </details>
 
 <details>
