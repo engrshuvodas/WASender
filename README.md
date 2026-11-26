@@ -40,7 +40,7 @@
 
 <br>
 
-[![Download Now](https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-wasender-pro.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender--pro.vercel.app/)
+[![Download Now](https://img.shields.io/static/v1?label=DOWNLOAD%20NOW&message=wasender-pro.vercel.app&color=25D366&style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-pro.vercel.app/)
 
 ### WASender v6 | Full Video Tutorial
 
@@ -246,11 +246,11 @@ Want to **resell WASender under your own business**? Our **Reseller Package** gi
 ## ⚙️ Getting Started
 
 ```
-1️⃣  Download WASender (Free Trial) → https://wasender-pro.vercel.app/
-2️⃣  Import your contact list via Excel
-3️⃣  Connect one or multiple WhatsApp accounts
-4️⃣  Create and customize your campaign messages
-5️⃣  Launch your campaign and track results in real time
+1️⃣ Download WASender (Free Trial) → https://wasender-pro.vercel.app/
+2️⃣ Import your contact list via Excel
+3️⃣ Connect one or multiple WhatsApp accounts
+4️⃣ Create and customize your campaign messages
+5️⃣ Launch your campaign and track results in real time
 ```
 
 <br>
@@ -270,7 +270,7 @@ Ready to activate WASender or unlock the full version? Reach out directly:
 
 <div align="center">
 
-[![Download Free Trial](https://img.shields.io/badge/⬇️_Download_Free_Trial-wasender-pro.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-pro.vercel.app/)
+[![Download Free Trial](https://img.shields.io/static/v1?label=DOWNLOAD%20FREE%20TRIAL&message=wasender-pro.vercel.app&color=25D366&style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-pro.vercel.app/)
 [![WhatsApp](https://img.shields.io/badge/Message_+919641700503-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+919641700503)
 
 </div>
@@ -301,6 +301,8 @@ Ready to activate WASender or unlock the full version? Reach out directly:
 
 ---
 
+<br>
+
 ## 📺 More Demos & Tutorials
 
 <div align="center">
@@ -330,7 +332,7 @@ WASender is a WhatsApp bulk sender and marketing automation software that lets y
 <details>
 <summary><strong>Is there a free trial for WASender?</strong></summary>
 <br>
-Yes! You can download and try WASender completely free before purchasing. Get the free trial here: <a href="https://wasender-pro.vercel.app/">wasender-fiverr.vercel.app</a>
+Yes! You can download and try WASender completely free before purchasing. Get the free trial here: <a href="https://wasender-pro.vercel.app/">wasender-pro.vercel.app</a>
 </details>
 
 <details>
@@ -342,13 +344,13 @@ WASender uses human-like sending behavior with randomized delay settings between
 <details>
 <summary><strong>Can I send WhatsApp bulk messages from an Excel contact list?</strong></summary>
 <br>
-Yes, WASender supports direct import of contacts from Excel files (saved or unsaved numbers), with a downloadable sample template included.
+Yes, WASender supports direct import of contacts from Excel files (saved or unsaved), with a downloadable sample template included.
 </details>
 
 <details>
 <summary><strong>Can I manage multiple WhatsApp accounts in one software?</strong></summary>
 <br>
-Yes, WASender includes a built-in multi-account manager so you can add, load, and switch between unlimited WhatsApp accounts from a single dashboard.
+Yes, WASender includes a built-in multi-account manager where you can add, load, and switch between unlimited WhatsApp accounts from a single dashboard.
 </details>
 
 <details>
@@ -374,8 +376,6 @@ Yes, all future version updates and bug fixes are provided completely free of ch
 ---
 
 <br>
-
-
 
 <div align="center">
 
@@ -409,7 +409,7 @@ Yes, all future version updates and bug fixes are provided completely free of ch
 
 <sub>
 
-**Related searches:** WhatsApp bulk sender software · WhatsApp marketing automation tool · WhatsApp mass messaging software · bulk WhatsApp sender download · WhatsApp automation for Windows · multi account WhatsApp sender · WhatsApp lead extractor Google Maps · WhatsApp group scraper tool · WhatsApp auto sender bot · WhatsApp marketing bot 2026 · WhatsApp number filter tool · WhatsApp CRM software · WhatsApp bulk message sender free trial · reseller WhatsApp software license panel
+**Related searches:** WhatsApp bulk sender software · WhatsApp marketing automation tool · WhatsApp mass messaging software · bulk WhatsApp sender download · WhatsApp automation for Windows · multi account WhatsApp sender · WhatsApp lead extractor Google Maps · WhatsApp group scraper tool · WhatsApp auto sender bot · WhatsApp number filter tool · WhatsApp CRM software · WhatsApp marketing bot 2026 · WhatsApp reseller software license panel
 
 </sub>
 
