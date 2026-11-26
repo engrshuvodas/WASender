@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Download WASender v5.1.1</title>
+<title>Download WASender</title>
     <meta name="description"
         content="Download the latest version of WA Sender - Professional WhatsApp bulk messaging software with Meta compliance features">
 
@@ -966,7 +966,7 @@
             <div class="header">
                 <div class="logo">💬</div>
                 <h1 class="app-title">WA Sender</h1>
-<span class="version-badge">Version 5.1.1</span>
+<span class="version-badge">Version <span data-release="version">—</span></span>
             </div>
 
             <!-- Content -->
@@ -999,19 +999,19 @@
                 <div class="info-grid">
                     <div class="info-item">
                         <div class="info-label">Version</div>
-<div class="info-value">5.1.1</div>
+<div class="info-value" data-release="version">—</div>
                     </div>
                     <div class="info-item">
                         <div class="info-label">Updated</div>
-                        <div class="info-value">10/06/2026</div>
+                        <div class="info-value" data-release="updated">—</div>
                     </div>
                     <div class="info-item">
                         <div class="info-label">File Size</div>
-                        <div class="info-value">88.6MB</div>
+                        <div class="info-value" data-release="size">—</div>
                     </div>
                     <div class="info-item">
                         <div class="info-label">File Name</div>
-                        <div class="info-value">wasender.exe</div>
+                        <div class="info-value" data-release="fileName">—</div>
                     </div>
                 </div>
 
@@ -1027,10 +1027,9 @@
                 </div>
 
                 <!-- Download Button -->
-                <a href="./Setup File/wasender.exe" download="wasender.exe" class="download-button"
-                    onclick="startDownload(event)">
+                <a href="https://wasender.me/download/" class="download-button">
                     <span class="download-icon">⬇️</span>
-                    Download WASender for Windows
+                    <span id="download-label">Open publisher download page</span>
                 </a>
 
                 <!-- System Requirements -->
@@ -1196,18 +1195,6 @@
                     </div>
                 </div>
 
-                <!-- Changelog -->
-                <div class="section">
-                    <h2 class="section-title">
-                        <div class="section-icon">📋</div>
-                        What's New in Version 5.1.1
-                    </h2>
-                    <ul class="changelog-list">
-                        <li class="changelog-item">✅Fixed </li>
-                        <!-- <li class="changelog-item">✅ Get Group Members – Fixed </li> -->
-                    </ul>
-                </div>
-
                 <!-- Compliance Guidelines -->
                 <div class="guidelines-section">
                     <div class="guidelines-title">
@@ -1237,7 +1224,7 @@
             <!-- Footer -->
             <div class="footer">
                 <p class="footer-text">
-                    Last updated: June 10, 2026 </p>
+                    Last updated: <span data-release="updated">—</span> <span id="release-status" role="status">See the publisher download page for current release details.</span></p>
                 <p class="footer-text">
                     Need help?
                     <a href="https://wa.me/+919641700503" target="_blank" class="footer-link">Chat on WhatsApp</a>
@@ -1251,27 +1238,8 @@
         </div>
     </div>
 
+    <script defer src="/release.js"></script>
     <script>
-        function startDownload(event) {
-            // Don't prevent default to allow download
-            const button = event.target;
-
-            // Add downloading class
-            button.classList.add('downloading');
-            button.innerHTML = '<span class="download-icon">⏳</span> Starting download...';
-
-            // Return to normal after 3 seconds
-            setTimeout(() => {
-                button.classList.remove('downloading');
-                button.innerHTML = '<span class="download-icon">✅</span> Download started!';
-
-                // Return to original text after 2 more seconds
-                setTimeout(() => {
-                    button.innerHTML = '<span class="download-icon">⬇️</span> Download WA Sender for Windows';
-                }, 2000);
-            }, 3000);
-        }
-
         // Add smooth parallax effect on background
         document.addEventListener('mousemove', (e) => {
             const x = e.clientX / window.innerWidth;
