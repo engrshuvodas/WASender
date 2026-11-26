@@ -40,7 +40,7 @@
 
 <br>
 
-[![Download Now](https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-wasender--fiverr.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-pro.vercel.app/)
+[![Download Now](https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-wasender-pro.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-pro.vercel.app/)
 
 ### WASender v6 | Full Video Tutorial
 
@@ -270,7 +270,7 @@ Ready to activate WASender or unlock the full version? Reach out directly:
 
 <div align="center">
 
-[![Download Free Trial](https://img.shields.io/badge/⬇️_Download_Free_Trial-wasender--fiverr.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-pro.vercel.app/)
+[![Download Free Trial](https://img.shields.io/badge/⬇️_Download_Free_Trial-wasender-pro.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-pro.vercel.app/)
 [![WhatsApp](https://img.shields.io/badge/Message_+919641700503-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+919641700503)
 
 </div>
