@@ -148,6 +148,36 @@
         .purchase-link:hover { background: #092b23; }
         .purchase-link:focus-visible { outline: 3px solid #182b24; outline-offset: 3px; }
         .header-purchase { margin: 16px 0 6px; }
+        .header-purchase .purchase-link {
+            min-width: 180px;
+            min-height: 50px;
+            padding: 12px 28px;
+            color: #064936;
+            background: linear-gradient(110deg, #c4f6d6 20%, #f8fff9 43%, #c4f6d6 66%);
+            background-size: 240% 100%;
+            border: 1px solid #e3ffeb;
+            box-shadow: 0 4px 12px rgba(4, 69, 49, 0.32);
+        }
+
+        .header-purchase .purchase-link:hover,
+        .header-purchase .purchase-link:focus-visible {
+            box-shadow: 0 6px 18px rgba(4, 69, 49, 0.42);
+        }
+
+        @media (prefers-reduced-motion: no-preference) {
+            .header-purchase .purchase-link {
+                animation: purchase-sheen 2s ease-in-out 0.4s 2;
+                transition: transform 180ms ease, box-shadow 180ms ease;
+            }
+            .header-purchase .purchase-link:hover { transform: translateY(-2px); }
+            .header-purchase .purchase-link:active { transform: translateY(0); }
+        }
+
+        @keyframes purchase-sheen {
+            from { background-position: 100% 50%; }
+            to { background-position: 0% 50%; }
+        }
+
         .purchase-panel {
             display: flex;
             flex-wrap: wrap;
@@ -1083,7 +1113,7 @@
                 <h1 class="app-title">WA Sender</h1>
 <span class="version-badge">Version <span data-release="version">—</span></span>
                 <div class="header-purchase">
-                    <a class="purchase-link" href="https://dastech.gumroad.com/l/wasender">Buy WASender <span aria-hidden="true">↗</span></a>
+                    <a class="purchase-link" href="https://dastech.gumroad.com/l/wasender">Buy WASender</a>
                 </div>
             </div>
 
@@ -1351,7 +1381,7 @@
                         <h2 id="purchase-title">Buy WASender</h2>
                         <p>View pricing and purchase the software on Gumroad.</p>
                     </div>
-                    <a class="purchase-link" href="https://dastech.gumroad.com/l/wasender">Buy on Gumroad <span aria-hidden="true">↗</span></a>
+                    <a class="purchase-link" href="https://dastech.gumroad.com/l/wasender">Buy on Gumroad</a>
                 </section>
             </div>
 
